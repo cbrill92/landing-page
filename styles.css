@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70px;
+}
+ ul {
+     display: flex;
+     flex-direction: row;
+     gap: 32px;
+     list-style-type: none;
+ }
+
+ .left-links {
+     font-size: 24px;
+ }
+
+ .top-container {
+     display: flex;
+     width: 700px;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .image-holder {
+     margin-left: auto;
+     display: flex;
+     background-color: aqua;
+     width: 300px;
+     height: 150px;
+ }
