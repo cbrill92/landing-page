@@ -4,6 +4,8 @@
     justify-content: space-around;
     align-items: center;
     height: 70px;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
  ul {
      display: flex;
@@ -15,14 +17,26 @@
  .left-links {
      font-size: 24px;
  }
+
+ h3 {
+     font-size: 48px;
+ }
  
  .image-holder {
      display: flex;
-     background-color: aqua;
-     width: 300px;
-     height: 150px;
+     background-color: grey;
+     width: 500px;
+     height: 250px;
      justify-content: center;
      align-items: center;
+ }
+
+ .top-container {
+     display: flex;
+     justify-content: center;
+     gap: 12px;
+     background-color: #1f2937;
+     color: #f9faf8;
  }
 
  .button-holder {
@@ -36,6 +50,11 @@
      display: flex;
      width: 500px;
      flex-wrap: wrap;
+}
+
+.image-box {
+    display: flex;
+    align-items: center;
 }
 
 .middle-header {
@@ -84,5 +103,7 @@
 
   .bottom-color {
       background-color: lightgray;
-      border-radius: 12px;
+      
   }
+
+  
