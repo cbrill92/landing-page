@@ -1,4 +1,8 @@
 
+body {
+    box-sizing: border-box;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -7,7 +11,7 @@
     background-color: #1f2937;
     color: #f9faf8;
 }
- ul {
+ ul.links {
      display: flex;
      flex-direction: row;
      gap: 32px;
@@ -18,7 +22,9 @@
      font-size: 24px;
  }
 
- h3 {
+ .top-title {
+     display: flex;
+     flex-wrap: wrap;
      font-size: 48px;
  }
  
@@ -34,22 +40,46 @@
  .top-container {
      display: flex;
      justify-content: center;
+     align-items: center;
      gap: 12px;
      background-color: #1f2937;
      color: #f9faf8;
+     padding: 50px 75px 50px 75px;
+ }
+
+ .top-words-holder {
+     display: flex;
+     width: 351px;
+     height: 68px;
  }
 
  .button-holder {
      display: flex;
      flex-direction: column;
      justify-content: flex-end;
-
  }
+
+ .words-button {
+     display: flex;
+     flex-direction: column;
+ }
+
+  #btn-1 {
+      background-color: #3882f6;
+      color: #f9faf8;
+      border-radius: 10px;
+      width: 75px;
+      height: 35px;
+      border: none;
+      margin-top: 14px;
+      cursor: pointer;
+  }
 
  .top-left {
      display: flex;
      width: 500px;
      flex-wrap: wrap;
+     padding: 50px;
 }
 
 .image-box {
@@ -77,10 +107,11 @@
  }
  
  img {
-    border: 1px solid rgb(25, 8, 181);
+    border: 4px solid #3882f6;
     border-radius: 12px;
     padding: 5px;
     width: 150px;
+    cursor: pointer;
   }
 
   .middle-bottom {
@@ -106,4 +137,60 @@
       
   }
 
+  .bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+  }
+
+  .blue-box {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      background-color: #3882f6;
+      width: 700px;
+      height: 100px;
+      border-radius: 12px;
+      padding: 15px;
+      
+    
+  }
+
+  #btn-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0 0 15px;
+  border: 1px solid white;
+  background-color: #3882f6;
+  color: white;
+  padding: 8px 16px;
+  font-size: 8px;
+  border-radius: 10px;
+  height: 25px;
+  width: 80px;
+  cursor: pointer;
+
+  }
+
+  ul.bottom-links {
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+      color: #f9faf8;
+  }
+
+  .footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #1f2937;
+      color: #3882f6;
+      padding: 30px;
+      font-size: 12px;
+      border-color: #f9faf8;
+  }
+
+  
   
